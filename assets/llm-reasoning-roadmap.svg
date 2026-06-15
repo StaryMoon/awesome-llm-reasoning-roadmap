@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940">
+<rect width="100%" height="100%" fill="#fbfcff"/>
+<text x="40" y="46" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="700" fill="#17202a">LLM Reasoning Roadmap</text>
+<text x="40" y="74" font-family="Inter,Arial,sans-serif" font-size="16" fill="#667085">From Chain-of-Thought to Test-Time Scaling and Reasoning RL</text>
+<line x1="210.0" y1="66" x2="210.0" y2="895" stroke="#e5e7ef" stroke-width="1"/>
+<text x="210.0" y="56" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">2021</text>
+<line x1="472.0" y1="66" x2="472.0" y2="895" stroke="#e5e7ef" stroke-width="1"/>
+<text x="472.0" y="56" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">2022</text>
+<line x1="734.0" y1="66" x2="734.0" y2="895" stroke="#e5e7ef" stroke-width="1"/>
+<text x="734.0" y="56" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">2023</text>
+<line x1="996.0" y1="66" x2="996.0" y2="895" stroke="#e5e7ef" stroke-width="1"/>
+<text x="996.0" y="56" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">2024</text>
+<line x1="1258.0" y1="66" x2="1258.0" y2="895" stroke="#e5e7ef" stroke-width="1"/>
+<text x="1258.0" y="56" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">2025</text>
+<line x1="1520.0" y1="66" x2="1520.0" y2="895" stroke="#e5e7ef" stroke-width="1"/>
+<text x="1520.0" y="56" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">2026</text>
+<text x="40" y="122" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#3867d6">Foundations</text>
+<line x1="210" y1="118" x2="1520" y2="118" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="460.0" cy="118" r="9" fill="#3867d6" opacity="0.95"/>
+<text x="460.0" y="143" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">CoT</text>
+<circle cx="484.0" cy="118" r="9" fill="#3867d6" opacity="0.95"/>
+<text x="484.0" y="143" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">STaR</text>
+<circle cx="996.0" cy="118" r="9" fill="#3867d6" opacity="0.95"/>
+<text x="996.0" y="143" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Quiet-STaR</text>
+<text x="40" y="200" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#20bf6b">Decoding and Decomposition</text>
+<line x1="210" y1="196" x2="1520" y2="196" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="460.0" cy="196" r="9" fill="#20bf6b" opacity="0.95"/>
+<text x="460.0" y="221" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Self-Consistency</text>
+<circle cx="484.0" cy="196" r="9" fill="#20bf6b" opacity="0.95"/>
+<text x="484.0" y="221" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Least-to-Most</text>
+<circle cx="734.0" cy="196" r="9" fill="#20bf6b" opacity="0.95"/>
+<text x="734.0" y="221" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Self-Refine</text>
+<text x="40" y="278" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#8854d0">Search and Deliberation</text>
+<line x1="210" y1="274" x2="1520" y2="274" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="722.0" cy="274" r="9" fill="#8854d0" opacity="0.95"/>
+<text x="722.0" y="299" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">ToT</text>
+<circle cx="746.0" cy="274" r="9" fill="#8854d0" opacity="0.95"/>
+<text x="746.0" y="299" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">GoT</text>
+<text x="40" y="356" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#fa8231">Agents and Tools</text>
+<line x1="210" y1="352" x2="1520" y2="352" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="460.0" cy="352" r="9" fill="#fa8231" opacity="0.95"/>
+<text x="460.0" y="377" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">ReAct</text>
+<circle cx="484.0" cy="352" r="9" fill="#fa8231" opacity="0.95"/>
+<text x="484.0" y="377" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">PAL</text>
+<circle cx="710.0" cy="352" r="9" fill="#fa8231" opacity="0.95"/>
+<text x="710.0" y="377" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Toolformer</text>
+<circle cx="734.0" cy="352" r="9" fill="#fa8231" opacity="0.95"/>
+<text x="734.0" y="377" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Reflexion</text>
+<circle cx="758.0" cy="352" r="9" fill="#fa8231" opacity="0.95"/>
+<text x="758.0" y="377" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">ToRA</text>
+<circle cx="1258.0" cy="352" r="9" fill="#fa8231" opacity="0.95"/>
+<text x="1258.0" y="377" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">TTS Agents</text>
+<circle cx="1520.0" cy="352" r="9" fill="#fa8231" opacity="0.95"/>
+<text x="1520.0" y="377" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Agentic Coding</text>
+<text x="40" y="434" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#eb3b5a">Verification and Rewards</text>
+<line x1="210" y1="430" x2="1520" y2="430" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="210.0" cy="430" r="9" fill="#eb3b5a" opacity="0.95"/>
+<text x="210.0" y="455" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Verifier</text>
+<circle cx="710.0" cy="430" r="9" fill="#eb3b5a" opacity="0.95"/>
+<text x="710.0" y="455" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">PRM</text>
+<circle cx="734.0" cy="430" r="9" fill="#eb3b5a" opacity="0.95"/>
+<text x="734.0" y="455" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">MetaMath</text>
+<circle cx="758.0" cy="430" r="9" fill="#eb3b5a" opacity="0.95"/>
+<text x="758.0" y="455" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">MATH-Shepherd</text>
+<circle cx="996.0" cy="430" r="9" fill="#eb3b5a" opacity="0.95"/>
+<text x="996.0" y="455" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Self-Rewarding</text>
+<text x="40" y="512" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#0fb9b1">Reasoning RL</text>
+<line x1="210" y1="508" x2="1520" y2="508" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="984.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="984.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">DeepSeekMath</text>
+<circle cx="1008.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="1008.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Qwen2.5-Math</text>
+<circle cx="1186.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="1186.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">DeepSeek-R1</text>
+<circle cx="1210.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="1210.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Kimi k1.5</text>
+<circle cx="1234.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="1234.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">DAPO</text>
+<circle cx="1258.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="1258.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">ORZ</text>
+<circle cx="1282.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="1282.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Skywork-OR1</text>
+<circle cx="1306.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="1306.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">QwQ-32B</text>
+<circle cx="1330.0" cy="508" r="9" fill="#0fb9b1" opacity="0.95"/>
+<text x="1330.0" y="533" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Nemotron</text>
+<text x="40" y="590" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#f7b731">Test-Time Scaling</text>
+<line x1="210" y1="586" x2="1520" y2="586" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="996.0" cy="586" r="9" fill="#f7b731" opacity="0.95"/>
+<text x="996.0" y="611" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">TTC Scaling</text>
+<circle cx="1222.0" cy="586" r="9" fill="#f7b731" opacity="0.95"/>
+<text x="1222.0" y="611" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">s1</text>
+<circle cx="1246.0" cy="586" r="9" fill="#f7b731" opacity="0.95"/>
+<text x="1246.0" y="611" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">LIMO</text>
+<circle cx="1270.0" cy="586" r="9" fill="#f7b731" opacity="0.95"/>
+<text x="1270.0" y="611" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">TTS Survey</text>
+<circle cx="1294.0" cy="586" r="9" fill="#f7b731" opacity="0.95"/>
+<text x="1294.0" y="611" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">TTS Art</text>
+<circle cx="1520.0" cy="586" r="9" fill="#f7b731" opacity="0.95"/>
+<text x="1520.0" y="611" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Overthinking</text>
+<text x="40" y="668" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#2d98da">Reasoning Data and Recipes</text>
+<line x1="210" y1="664" x2="1520" y2="664" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="1246.0" cy="664" r="9" fill="#2d98da" opacity="0.95"/>
+<text x="1246.0" y="689" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">OpenThoughts</text>
+<circle cx="1270.0" cy="664" r="9" fill="#2d98da" opacity="0.95"/>
+<text x="1270.0" y="689" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">AceReason</text>
+<text x="40" y="746" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#a55eea">Evaluation and Stress Tests</text>
+<line x1="210" y1="742" x2="1520" y2="742" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="996.0" cy="742" r="9" fill="#a55eea" opacity="0.95"/>
+<text x="996.0" y="767" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">LiveCodeBench</text>
+<circle cx="1246.0" cy="742" r="9" fill="#a55eea" opacity="0.95"/>
+<text x="1246.0" y="767" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">HLE</text>
+<circle cx="1270.0" cy="742" r="9" fill="#a55eea" opacity="0.95"/>
+<text x="1270.0" y="767" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">BrowseComp</text>
+<circle cx="1520.0" cy="742" r="9" fill="#a55eea" opacity="0.95"/>
+<text x="1520.0" y="767" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">RRB</text>
+<text x="40" y="824" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#4b6584">Frontier Reports</text>
+<line x1="210" y1="820" x2="1520" y2="820" stroke="#edf0f5" stroke-width="2"/>
+<circle cx="984.0" cy="820" r="9" fill="#4b6584" opacity="0.95"/>
+<text x="984.0" y="845" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">DeepSeek-V3</text>
+<circle cx="1008.0" cy="820" r="9" fill="#4b6584" opacity="0.95"/>
+<text x="1008.0" y="845" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Phi-4</text>
+<circle cx="1258.0" cy="820" r="9" fill="#4b6584" opacity="0.95"/>
+<text x="1258.0" y="845" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#17202a">Qwen3</text>
+</svg>

@@ -1,0 +1,164 @@
+{
+  "tracks": [
+    {
+      "id": "start-here",
+      "title": "Start Here: CoT to Self-Consistency",
+      "hook": "A compact route for understanding why reasoning traces became a first-class interface for LLMs.",
+      "audience": "Students and engineers who want the shortest path from prompting to modern reasoning terminology.",
+      "why_hot": "Almost every recent reasoning paper still uses CoT, self-consistency, and decomposition as its baseline vocabulary.",
+      "papers": [
+        "chain-of-thought-2022",
+        "self-consistency-2022",
+        "least-to-most-2022",
+        "star-2022",
+        "quiet-star-2024"
+      ],
+      "compare": [
+        "Whether reasoning is produced only at inference time or also used for training.",
+        "Whether the method improves reasoning by better prompts, better sampling, or better data.",
+        "Whether rationales are treated as explanations, latent computation, or supervision signals."
+      ]
+    },
+    {
+      "id": "deliberate-search",
+      "title": "Deliberate Search: Trees, Graphs, and Test-Time Compute",
+      "hook": "A route through explicit search over thoughts and the newer idea that inference-time compute is itself a scaling axis.",
+      "audience": "Readers interested in budget forcing, inference-time search, and non-greedy reasoning.",
+      "why_hot": "Test-time scaling is one of the clearest bridges between old reasoning prompts and current reasoning models.",
+      "papers": [
+        "tree-of-thoughts-2023",
+        "graph-of-thoughts-2023",
+        "test-time-compute-2024",
+        "s1-2025",
+        "limo-2025",
+        "test-time-scaling-survey-2025",
+        "art-of-tts-2025",
+        "overthinking-2026"
+      ],
+      "compare": [
+        "How the search state is represented: chain, tree, graph, or budget-controlled continuation.",
+        "Whether additional compute is spent on sampling, search, verification, or longer thinking.",
+        "How much performance comes from inference strategy versus training data."
+      ]
+    },
+    {
+      "id": "agents-tools-programs",
+      "title": "Agents, Tools, and Executable Reasoning",
+      "hook": "A route through reasoning systems that leave pure text and interact with tools, code, memory, and environments.",
+      "audience": "Agent builders, tool-use researchers, and people interested in executable reasoning traces.",
+      "why_hot": "Tool-use and agent workflows are where reasoning becomes visible as actions instead of only text.",
+      "papers": [
+        "react-2022",
+        "pal-2022",
+        "toolformer-2023",
+        "reflexion-2023",
+        "self-refine-2023",
+        "tora-2023",
+        "tts-agents-2025",
+        "agentic-coding-tts-2026"
+      ],
+      "compare": [
+        "Whether tools are called through prompting, fine-tuning, or self-supervised API annotations.",
+        "Whether the system learns from environment feedback, self-feedback, or external execution.",
+        "Whether the reasoning trace is natural language, code, or action-observation memory."
+      ]
+    },
+    {
+      "id": "verifiers-process-rewards",
+      "title": "Verifiers, Process Rewards, and Self-Judging Models",
+      "hook": "A route for understanding why final-answer accuracy is not enough and why step-level reward became central.",
+      "audience": "Readers interested in PRMs, reward modeling, math verification, and scalable supervision.",
+      "why_hot": "Reasoning RL needs reward signals; process supervision is one of the main ways to make those rewards less sparse.",
+      "papers": [
+        "training-verifiers-2021",
+        "lets-verify-step-by-step-2023",
+        "metamath-2023",
+        "math-shepherd-2023",
+        "self-rewarding-2024"
+      ],
+      "compare": [
+        "Outcome supervision versus process supervision.",
+        "Human annotations versus synthetic or model-generated step labels.",
+        "External verifiers versus self-judging models."
+      ]
+    },
+    {
+      "id": "reasoning-rl-systems",
+      "title": "Reasoning RL Systems: GRPO, Long-CoT, and Open Reasoners",
+      "hook": "The route that connects DeepSeekMath, DeepSeek-R1, Kimi k1.5, DAPO, ORZ, and Skywork-OR1.",
+      "audience": "LLM researchers tracking modern RL recipes for math, code, and long-chain reasoning.",
+      "why_hot": "This is the current high-traffic cluster: reasoning ability as an RL-trained behavior rather than only a prompt trick.",
+      "papers": [
+        "deepseekmath-2024",
+        "deepseek-r1-2025",
+        "kimi-k1-5-2025",
+        "qwq-32b-2025",
+        "llama-nemotron-2025",
+        "dapo-2025",
+        "open-reasoner-zero-2025",
+        "skywork-or1-2025"
+      ],
+      "compare": [
+        "Which parts are SFT, RL, rejection sampling, distillation, or verifier-driven selection.",
+        "How each system defines rewards for math/code correctness.",
+        "How much of the recipe depends on base model quality versus RL infrastructure."
+      ]
+    },
+    {
+      "id": "reasoning-data-recipes",
+      "title": "Reasoning Data Recipes: Small Data, Open Data, and SFT/RL Synergy",
+      "hook": "A route for readers who care less about slogans and more about where the reasoning behavior actually comes from.",
+      "audience": "Students, reproduction builders, and open-source practitioners trying to assemble training data or starter pipelines.",
+      "why_hot": "After DeepSeek-R1, many readers want recipes, not just model names: data filtering, distillation, SFT, and RL are the buy-in points.",
+      "papers": [
+        "qwen2-5-math-2024",
+        "limo-2025",
+        "openthoughts-2025",
+        "acereason-nemotron-2025",
+        "s1-2025"
+      ],
+      "compare": [
+        "Tiny curated data versus large open reasoning corpora.",
+        "SFT-only unlocks versus RL-driven improvements.",
+        "Math-only recipes versus math-plus-code recipes."
+      ]
+    },
+    {
+      "id": "benchmarks-stress-tests",
+      "title": "Benchmarks and Stress Tests: Code, Browsing, Expert Exams, and Robustness",
+      "hook": "A route for checking whether a reasoning claim survives outside the paper's favorite setting.",
+      "audience": "Readers who want to evaluate reasoning models, write reproduction reports, or avoid benchmark theater.",
+      "why_hot": "Hard benchmarks and robustness tests are what turn reasoning hype into something comparable.",
+      "papers": [
+        "livecodebench-2024",
+        "humanitys-last-exam-2025",
+        "browsecomp-2025",
+        "rrb-2026",
+        "overthinking-2026"
+      ],
+      "compare": [
+        "Static benchmark accuracy versus live or contamination-resistant evaluation.",
+        "Math and code reasoning versus browsing-agent reasoning.",
+        "Higher test-time compute versus robustness under perturbation."
+      ]
+    },
+    {
+      "id": "frontier-reports-context",
+      "title": "Frontier Reports Context: Base Models and Reasoning Modes",
+      "hook": "A route for reading model reports that contextualize the reasoning wave without being only reasoning papers.",
+      "audience": "People comparing frontier model reports, base model design, synthetic data, and reasoning modes.",
+      "why_hot": "Reasoning ability is now marketed and engineered as part of frontier model families, not just separate math models.",
+      "papers": [
+        "deepseek-v3-2024",
+        "phi-4-2024",
+        "qwen3-2025",
+        "qwen2-5-math-2024"
+      ],
+      "compare": [
+        "Base-model architecture versus post-training recipe.",
+        "Synthetic data and math specialization versus general-purpose frontier reports.",
+        "Explicit thinking modes versus implicit reasoning improvements."
+      ]
+    }
+  ]
+}

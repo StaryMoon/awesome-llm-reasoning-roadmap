@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="42" y="54" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700" fill="#17202a">Reasoning Method Map</text>
+<text x="42" y="82" font-family="Inter,Arial,sans-serif" font-size="16" fill="#667085">A compact view of where the curated papers sit in the reasoning stack.</text>
+<rect x="42" y="122" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="60" y="156" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Prompting</text>
+<text x="60" y="183" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">4 papers</text>
+<rect x="60" y="204" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="60" y="204" width="76.4" height="10" rx="5" fill="#2457ff"/>
+<rect x="320" y="122" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="338" y="156" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Decoding</text>
+<text x="338" y="183" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">2 papers</text>
+<rect x="338" y="204" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="338" y="204" width="38.2" height="10" rx="5" fill="#2457ff"/>
+<rect x="598" y="122" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="616" y="156" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Search</text>
+<text x="616" y="183" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">2 papers</text>
+<rect x="616" y="204" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="616" y="204" width="38.2" height="10" rx="5" fill="#2457ff"/>
+<rect x="876" y="122" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="894" y="156" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Agent</text>
+<text x="894" y="183" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">5 papers</text>
+<rect x="894" y="204" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="894" y="204" width="95.6" height="10" rx="5" fill="#2457ff"/>
+<rect x="42" y="274" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="60" y="308" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Verifier</text>
+<text x="60" y="335" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">5 papers</text>
+<rect x="60" y="356" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="60" y="356" width="95.6" height="10" rx="5" fill="#2457ff"/>
+<rect x="320" y="274" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="338" y="308" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">RL</text>
+<text x="338" y="335" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">9 papers</text>
+<rect x="338" y="356" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="338" y="356" width="172.0" height="10" rx="5" fill="#2457ff"/>
+<rect x="598" y="274" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="616" y="308" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Scaling</text>
+<text x="616" y="335" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">5 papers</text>
+<rect x="616" y="356" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="616" y="356" width="95.6" height="10" rx="5" fill="#2457ff"/>
+<rect x="876" y="274" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="894" y="308" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Data</text>
+<text x="894" y="335" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">2 papers</text>
+<rect x="894" y="356" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="894" y="356" width="38.2" height="10" rx="5" fill="#2457ff"/>
+<rect x="42" y="426" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="60" y="460" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Benchmark</text>
+<text x="60" y="487" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">4 papers</text>
+<rect x="60" y="508" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="60" y="508" width="76.4" height="10" rx="5" fill="#2457ff"/>
+<rect x="320" y="426" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="338" y="460" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Report</text>
+<text x="338" y="487" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">3 papers</text>
+<rect x="338" y="508" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="338" y="508" width="57.3" height="10" rx="5" fill="#2457ff"/>
+<rect x="598" y="426" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="616" y="460" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Survey</text>
+<text x="616" y="487" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">2 papers</text>
+<rect x="616" y="508" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="616" y="508" width="38.2" height="10" rx="5" fill="#2457ff"/>
+<rect x="876" y="426" width="250" height="118" rx="14" fill="#f8faff" stroke="#e5e8f0"/>
+<text x="894" y="460" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#17202a">Failure</text>
+<text x="894" y="487" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">1 papers</text>
+<rect x="894" y="508" width="172" height="10" rx="5" fill="#e8ecf5"/>
+<rect x="894" y="508" width="19.1" height="10" rx="5" fill="#2457ff"/>
+</svg>

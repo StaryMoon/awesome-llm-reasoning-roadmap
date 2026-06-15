@@ -1,0 +1,21 @@
+name: Check Roadmap
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate JSON
+        run: |
+          python -m json.tool data/papers.json > /tmp/papers.json
+          python -m json.tool data/tracks.json > /tmp/tracks.json
+      - name: Check generated files
+        run: python scripts/build.py --check
