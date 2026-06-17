@@ -4,7 +4,7 @@
 
 **From Chain-of-Thought to Test-Time Scaling and Reasoning RL.**
 
-![Papers](https://img.shields.io/badge/papers-44-blue) ![Tracks](https://img.shields.io/badge/reading_tracks-8-purple) ![Updated](https://img.shields.io/badge/updated-2026-06-15-green) ![License](https://img.shields.io/badge/license-MIT-green)
+![Papers](https://img.shields.io/badge/papers-44-blue) ![Tracks](https://img.shields.io/badge/reading_tracks-8-purple) ![Updated](https://img.shields.io/badge/updated-2026-06-17-green) ![License](https://img.shields.io/badge/license-MIT-green)
 
 [Visual roadmap](#visual-roadmap) · [Reading tracks](#reading-tracks) · [Paper atlas](#paper-atlas) · [Searchable page](docs/index.html) · [Data](data/papers.json)
 
@@ -29,6 +29,14 @@ What makes it different from a normal awesome list:
 ![LLM reasoning roadmap](assets/llm-reasoning-roadmap.svg)
 
 ![Reasoning method map](assets/reasoning-method-map.svg)
+
+## Adoption / Related PRs
+
+| Repository | PR | Status | Context |
+|---|---|---|---|
+| `atfortes/Awesome-LLM-Reasoning` | [#78](https://github.com/atfortes/Awesome-LLM-Reasoning/pull/78) | Open | Adds this visual roadmap as a related reasoning resource. |
+| `mbzuai-oryx/Awesome-LLM-Post-training` | [#30](https://github.com/mbzuai-oryx/Awesome-LLM-Post-training/pull/30) | Open | Adds this roadmap to post-training and reasoning-resource references. |
+| `4IK1d/awesome-llm-reasoning` | [#2](https://github.com/4IK1d/awesome-llm-reasoning/pull/2) | Open | Adds the roadmap in the related awesome-list section. |
 
 ## Reading Tracks
 
