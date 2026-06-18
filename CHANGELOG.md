@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.2 - 2026-06-18
+
+- Added the merged `Peiyang-Song/Awesome-LLM-Reasoning-Failures#6` adoption record.
+- Refreshed generated README and searchable page timestamps.
+
 ## v0.1.1 - 2026-06-17
 
 - Added an Adoption / Related PRs section to track external awesome-list PRs that reference the roadmap.

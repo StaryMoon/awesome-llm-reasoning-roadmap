@@ -266,6 +266,7 @@ def render_readme(papers: list[dict], tracks: list[dict]) -> str:
         "",
         "| Repository | PR | Status | Context |",
         "|---|---|---|---|",
+        "| `Peiyang-Song/Awesome-LLM-Reasoning-Failures` | [#6](https://github.com/Peiyang-Song/Awesome-LLM-Reasoning-Failures/pull/6) | Merged | Adds a test-time compute overthinking / robust-reasoning paper to a failure-mode reasoning list. |",
         "| `atfortes/Awesome-LLM-Reasoning` | [#78](https://github.com/atfortes/Awesome-LLM-Reasoning/pull/78) | Open | Adds this visual roadmap as a related reasoning resource. |",
         "| `mbzuai-oryx/Awesome-LLM-Post-training` | [#30](https://github.com/mbzuai-oryx/Awesome-LLM-Post-training/pull/30) | Open | Adds this roadmap to post-training and reasoning-resource references. |",
         "| `4IK1d/awesome-llm-reasoning` | [#2](https://github.com/4IK1d/awesome-llm-reasoning/pull/2) | Open | Adds the roadmap in the related awesome-list section. |",
